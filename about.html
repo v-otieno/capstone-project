@@ -1,0 +1,245 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Vivian Otieno Portfolio</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css" rel="stylesheet">
+    <style>
+        body {
+            background-color: #0d0d0d;
+            color: white;
+            font-family: Arial, sans-serif;
+        }
+
+        .btn-contact {
+            background-color: #d4ff4d;
+            color: black;
+            font-weight: bold;
+            border-radius: 25px;
+            padding: 8px 24px;
+        }
+
+        .btn-icon {
+            background-color: #1a1a1a;
+            border: none;
+            border-radius: 50%;
+            margin-left: 10px;
+            padding: 8px 12px;
+        }
+
+        .btn-icon i {
+            color: #d4ff4d;
+            font-size: 1.2rem;
+        }
+
+        .skill-tag {
+            background-color: #1a1a1a;
+            color: white;
+            font-size: 0.85rem;
+            padding: 0.6em 1.2em;
+            border-radius: 30px;
+        }
+
+        nav a {
+            color: white;
+            margin-left: 20px;
+            text-decoration: none;
+        }
+
+        .project-image {
+            width: 400px;
+            /* or adjust based on what looks best */
+            object-fit: cover;
+            object-position: center;
+            border-radius: 15px;
+            margin: 0 auto;
+        }
+
+        h2,
+        h5 {
+            color: white;
+        }
+
+        .text-success {
+            color: #d4ff4d !important;
+            /* matches the neon green style */
+        }
+
+        .text-muted {
+            color: #aaa !important;
+        }
+    </style>
+</head>
+
+<body>
+
+    <!-- Navbar -->
+    <nav class="d-flex justify-content-between p-3">
+        <div class="text-uppercase fw-bold">Vivian Otieno</div>
+        <div>
+            <a href="index.html">Work</a>
+            <a href="about.html">About</a>
+            <a href="contact.html">Contact</a>
+        </div>
+    </nav>
+
+    <!-- About Me Section -->
+    <div class="container py-5" id="about">
+        <div class="row align-items-start">
+            <!-- Left Title -->
+            <div class="col-md-4 mb-3">
+                <h2 class="fw-bold text-uppercase">About Me</h2>
+            </div>
+            <!-- Right Text -->
+            <div class="col-md-8">
+                <h5 class="fw-bold">
+                    I am a front-end developer based in Kenya.<br>
+                    I recently transitioned into tech.
+                </h5>
+                <p>
+                    I am a front-end developer based in Kenya looking for exciting opportunities.
+                    Transitioning into tech.
+                    Likes to focus on accessibility when developing. Passionate and curious about solving problems.
+                    Currently, I'm exploring React.js, Javascript, and a bit of UI designing. While I am not
+                    programming, I
+                    enjoy reading novels, Taking walks, and Listening to music. Learning more to improve skills.
+                </p>
+                <a href="#" class="btn btn-contact me-2">Download Resume</a>
+                <a href="https://www.linkedin.com/in/vivian-anyango-a51184257/" target="_blank" class="btn btn-icon"
+                    aria-label="LinkedIn">
+                    <img src="/images/Frame 3.png" alt="linkedin icon" />
+                </a>
+
+                <!-- GitHub Icon -->
+
+                <a href="https://github.com/v-otieno" target="_blank" class="btn btn-icon" aria-label="GitHub">
+                    <img src="/images/Frame 4.png" alt="github icon" />
+                </a>
+            </div>
+        </div>
+
+        <!-- Image Section -->
+        <div class="my-5 mx-auto" style="width: 400px;">
+            <img src="/images/20230612_173849 (1).jpg" alt="Developer Image" class="project-image">
+        </div>
+
+
+        <!-- My Capabilities -->
+        <div class="row align-items-start pt-5">
+            <div class="col-md-4 mb-3">
+                <h2 class="fw-bold text-uppercase">My Capabilities</h2>
+            </div>
+            <div class="col-md-8">
+                <p>
+                    I am always looking to add more skills.
+                </p>
+                <div class="d-flex flex-wrap gap-2 mt-3">
+                    <span class="skill-tag">HTML</span>
+                    <span class="skill-tag">CSS</span>
+                    <span class="skill-tag">JavaScript</span>
+                    <span class="skill-tag">Bootstrap</span>
+                    <span class="skill-tag">Tailwind CSS</span>
+                </div>
+            </div>
+        </div>
+    </div>
+    <hr>
+    <!-- My Experience Section -->
+    <div class="container py-5" id="experience">
+        <div class="row align-items-start">
+            <!-- Left Title -->
+            <div class="col-md-4 mb-3">
+                <h2 class="fw-bold text-uppercase">My Experience</h2>
+            </div>
+
+            <!-- Right Experience List -->
+            <div class="col-md-8">
+
+                <div>
+                    <div class="d-flex justify-content-between">
+                        <h5 class="mb-1">Front-End Intern – Learning Role <br><span
+                                class="text-success">EndGlitch</span></h5>
+                        <small class="text-muted">JAN 2025 – Present</small>
+                    </div>
+                    <p class="text-muted mb-0">
+
+                        Actively learning and applying concepts in real-world projects under guidance.
+
+                        Contributing to basic tasks while improving skills in [specific skills or tools].
+
+                        Participating in team meetings and code reviews to build professional habits.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <hr>
+    <div class="container py-5" id="contact">
+        <div class="row">
+            <!-- Left Side -->
+            <div class="col-md-6 mb-4">
+                <h2 class="fw-bold text-uppercase">Let's Connect</h2>
+                <p>Say hello at <a href="mailto:viviananyango854@gmail.com" class="text-decoration-none"
+                        style="color: #d4ff4d;">viviananyango854@gmail.com</a></p>
+                <p>For more info, here's my <a href="resume.pdf" class="text-decoration-underline"
+                        target="_blank">resume</a></p>
+
+                <!-- Social Icons -->
+                <div class="d-flex mt-3">
+                    <a href="https://www.linkedin.com/in/vivian-anyango-a51184257/" target="_blank" class="btn btn-icon"
+                        aria-label="LinkedIn">
+                        <img src="/images/Frame 3.png" alt="linkedin icon" />
+                    </a>
+
+                    <!-- GitHub Icon -->
+
+                    <a href="https://github.com/v-otieno" target="_blank" class="btn btn-icon" aria-label="GitHub">
+                        <img src="/images/Frame 4.png" alt="github icon" />
+                    </a>
+                    <!-- <a href="#" class="me-3" aria-label="LinkedIn"><i class="bi bi-linkedin"
+                            style="color: #d4ff4d; font-size: 1.5rem;"></i></a>
+                    <a href="#" class="me-3" aria-label="GitHub"><i class="bi bi-github"
+                            style="color: #d4ff4d; font-size: 1.5rem;"></i></a>
+                    <a href="#" class="me-3" aria-label="X (Twitter)"><i class="bi bi-twitter-x"
+                            style="color: #d4ff4d; font-size: 1.5rem;"></i></a>
+                    <a href="#" class="me-3" aria-label="Instagram"><i class="bi bi-instagram"
+                            style="color: #d4ff4d; font-size: 1.5rem;"></i></a> -->
+                </div>
+
+                <!-- Footer -->
+                <p class="mt-5 text-muted small">© 2025 Vivian Otieno</p>
+            </div>
+
+            <!-- Right Side: Contact Form -->
+            <div class="col-md-6">
+                <form>
+                    <div class="mb-3">
+                        <label class="form-label">Name</label>
+                        <input type="text" class="form-control bg-dark text-white border-0" placeholder="Name">
+                    </div>
+                    <div class="mb-3">
+                        <label class="form-label">Email</label>
+                        <input type="email" class="form-control bg-dark text-white border-0" placeholder="Email">
+                    </div>
+                    <div class="mb-3">
+                        <label class="form-label">Subject</label>
+                        <input type="text" class="form-control bg-dark text-white border-0" placeholder="Subject">
+                    </div>
+                    <div class="mb-3">
+                        <label class="form-label">Message</label>
+                        <textarea class="form-control bg-dark text-white border-0" rows="4"
+                            placeholder="Message"></textarea>
+                    </div>
+                    <button type="submit" class="btn btn-contact">Submit</button>
+                </form>
+            </div>
+        </div>
+    </div>
+    <!-- SCRIPTS -->
+    <script src="js/resume-download.js"></script>
+</body>
+
+</html>
