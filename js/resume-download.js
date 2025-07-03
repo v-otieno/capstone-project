@@ -7,7 +7,7 @@ document.addEventListener('DOMContentLoaded', function () {
                 e.preventDefault();
                 console.log('Download Resume button clicked');
                 // Path to the PDF file (relative to the HTML file)
-                const pdfPath = 'files/Vivian_Otieno_CV.pdf';
+                const pdfPath = 'files/vivian_otieno_cv.pdf';
                 // Create a temporary link and trigger download
                 const link = document.createElement('a');
                 link.href = pdfPath;
