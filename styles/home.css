@@ -1,0 +1,95 @@
+body {
+    background-color: #0d0d0d;
+    color: white;
+    font-family: 'Noto Sans', sans-serif;
+}
+
+.hero {
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+}
+
+.btn-contact {
+    background-color: #d4ff4d;
+    color: black;
+    font-weight: bold;
+}
+
+.btn-icon {
+    background-color: #1a1a1a;
+    border: none;
+    margin-left: 10px;
+}
+
+.btn-icon i {
+    color: #d4ff4d;
+}
+
+.profile-img {
+    object-fit: cover;
+    object-position: center 10%;
+    margin-top: -20px;
+    transform: scale(0.9);
+    box-shadow: 0 0 60px 0 #eaff97, 0 8px 32px 0 #d4ff4d;
+    width: 280px;
+    height: 280px;
+}
+
+@media (min-width: 768px) {
+    .profile-img {
+        width: 400px;
+        height: 400px;
+        max-width: 100%;
+    }
+}
+
+nav a {
+    color: white;
+    margin-left: 20px;
+    text-decoration: none;
+}
+
+.project-img {
+    height: 300px;
+    width: 100%;
+    object-fit: cover;
+    border-radius: 10px;
+}
+
+
+h2,
+h5 {
+    color: white;
+}
+
+p {
+    color: #ccc;
+}
+
+
+.btn-contact {
+    background-color: #d4ff4d;
+    color: black;
+    font-weight: bold;
+    border-radius: 25px;
+    padding: 8px 24px;
+}
+
+.form-control::placeholder {
+    color: #aaa;
+}
+
+h2,
+h5 {
+    color: white;
+}
+
+.text-success {
+    color: #d4ff4d !important;
+    /* matches the neon green style */
+}
+
+.text-muted {
+    color: #aaa !important;
+}

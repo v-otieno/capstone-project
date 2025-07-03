@@ -1,0 +1,75 @@
+body {
+    background-color: #0d0d0d;
+    color: white;
+    font-family: 'Noto Sans', sans-serif;
+}
+
+.btn-contact {
+    background-color: #d4ff4d;
+    color: black;
+    font-weight: bold;
+    border-radius: 25px;
+    padding: 8px 24px;
+}
+
+.btn-icon {
+    background-color: #1a1a1a;
+    border: none;
+    border-radius: 50%;
+    margin-left: 10px;
+    padding: 8px 12px;
+}
+
+.btn-icon i {
+    color: #d4ff4d;
+    font-size: 1.2rem;
+}
+
+.skill-tag {
+    background-color: #1a1a1a;
+    color: white;
+    font-size: 0.85rem;
+    padding: 0.6em 1.2em;
+    border-radius: 30px;
+}
+
+nav a {
+    color: white;
+    margin-left: 20px;
+    text-decoration: none;
+}
+
+.project-image {
+    width: 100%;
+    height: 1200px;
+    /* or adjust based on what looks best */
+    object-fit: cover;
+    object-position: center;
+    border-radius: 15px;
+}
+
+.btn-contact {
+    background-color: #d4ff4d;
+    color: black;
+    font-weight: bold;
+    border-radius: 25px;
+    padding: 8px 24px;
+}
+
+.form-control::placeholder {
+    color: #aaa;
+}
+
+h2,
+h5 {
+    color: white;
+}
+
+.text-success {
+    color: #d4ff4d !important;
+    /* matches the neon green style */
+}
+
+.text-muted {
+    color: #aaa !important;
+}
